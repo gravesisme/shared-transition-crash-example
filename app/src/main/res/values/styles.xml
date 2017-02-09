@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TitleLabel">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/content_margin_xlarge</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DescriptionLabel">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/content_margin_small</item>
+        <item name="android:layout_marginRight">@dimen/content_margin_small</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="ImageButton">
+        <item name="android:background">@drawable/bt_image_button</item>
+        <item name="android:layout_margin">@dimen/content_margin_large</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="ImageButton.Small" parent="ImageButton">
+        <item name="android:layout_width">@dimen/image_btn_size_secondary</item>
+        <item name="android:layout_height">@dimen/image_btn_size_secondary</item>
+        <item name="android:padding">@dimen/content_margin_large</item>
+    </style>
+
+    <style name="ImageButton.Large" parent="ImageButton">
+        <item name="android:layout_width">@dimen/image_btn_size_large</item>
+        <item name="android:layout_height">@dimen/image_btn_size_large</item>
+        <item name="android:padding">@dimen/content_margin_xlarge</item>
+    </style>
+
+</resources>

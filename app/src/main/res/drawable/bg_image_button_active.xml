@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="oval">
+
+    <solid android:color="@color/light_grey" />
+
+    <stroke
+        android:color="@color/grey"
+        android:width="@dimen/border_size_tiny"
+    />
+
+    <!--<padding-->
+        <!--android:left="@dimen/content_margin_medium"-->
+        <!--android:top="@dimen/content_margin_medium"-->
+        <!--android:bottom="@dimen/content_margin_medium"-->
+        <!--android:right="@dimen/content_margin_medium"-->
+    <!--/>-->
+
+</shape>

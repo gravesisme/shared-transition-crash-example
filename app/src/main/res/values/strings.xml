@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SharedTransitionCrashExample</string>
+    <string name="app_description">Support lib 25.2.0 crashes when fragment transactions contain a shared element transition without specifying setAllowOptimization(true)</string>
+    <string name="fragment_a_title">Fragment #1</string>
+    <string name="fragment_b_title">Fragment #2</string>
+    <string name="fragment_c_title">Fragment #3</string>
+    <string name="fragment_a_description">Click image button to proceed to next fragment</string>
+    <string name="fragment_b_description">Click image button above and app will crash</string>
+    <string name="fragment_c_description">If you can see this the app did not crash!\nClick image button above to start over.</string>
+    <string name="enable_shared_transitions">Enable Shared Transitions</string>
+    <string name="disable_shared_transitions">Disable Shared Transitions</string>
+</resources>

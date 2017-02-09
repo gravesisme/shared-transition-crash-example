@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Shared Element Transition Names -->
+    <string name="transition_image_button_a">image_button_a</string>
+    <string name="transition_image_button_b">image_button_b</string>
+
+</resources>
